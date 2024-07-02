@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cálculo de Compra no Hortifruti</title>
+</head>
+<body>
+    
+    <h1>Cálculo de Compra no Hortifruti</h1>
+
+    <form id="formulario">
+        <fieldset>
+            <div id="imagem">
+                <img id="alimento"  src="tomate_kg_94366a4f-cd28-4793-85b0-fa7d29460130.png" alt="">
+                <img id="alimento" src="Cebola.png" alt="">
+                <img id="alimento" src="mandioca.png" alt="">
+                <img id="alimento" src="batata-inglesa-kg.png" alt="">
+                <img id="alimento" src="cenoura rama-800x800.png" alt="">
+                <img id="alimento" src="chuchu_kg_7e4e4185-4a3d-4591-850a-a9866324dada.png" alt="">
+            </div>
+            <legend>Selecione os produtos e suas quantidades:</legend>
+            <div class="produto">
+                <label for="tomate">Tomate (R$ 5,35):</label>
+                <input type="number" id="tomate" name="tomate" min="0" value="0">
+            </div>
+            <div class="produto">
+                <label for="cebola">Cebola (R$ 3,32):</label>
+                <input type="number" id="cebola" name="cebola" min="0" value="0">
+            </div>
+            <div class="produto">
+                <label for="aipim">Aipim (R$ 2,87):</label>
+                <input type="number" id="aipim" name="aipim" min="0" value="0">
+            </div>
+            <div class="produto">
+                <label for="batata">Batata Inglesa (R$ 4,43):</label>
+                <input type="number" id="batata" name="batata" min="0" value="0">
+            </div>
+            <div class="produto">
+                <label for="cenoura">Cenoura (R$ 3,59):</label>
+                <input type="number" id="cenoura" name="cenoura" min="0" value="0">
+            </div>
+            <div class="produto">
+                <label for="chuchu">Chuchu (R$ 1,79):</label>
+                <input type="number" id="chuchu" name="chuchu" min="0" value="0">
+            </div>
+        </fieldset>
+        <button type="submit">Calcular Total</button>
+    </form>
+
+    <div id="resultado6">
+        <p id="valorTotal">Valor Total: R$ 0,00</p>
+    </div>
+
+    <script src="script8.js" defer></script>
+    <nav>
+        <a href="index.html">Início</a>
+    </nav>
+</body>
+</html>
